@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<script>
+function add(){
+sum = parseInt(n1.value) + parseInt(n2.value);
+document.getElementById("ans").innerHTML = sum;
+}
+function minus(){
+sum = parseInt(n1.value) - parseInt(n2.value);
+document.getElementById("ans").innerHTML = sum;
+}
+function times(){
+sum = parseInt(n1.value) * parseInt(n2.value);
+document.getElementById("ans").innerHTML = sum;
+}
+function divide(){
+sum = parseInt(n1.value) / parseInt(n2.value);
+document.getElementById("ans").innerHTML = sum;
+}
+function binary(){
+cvrt = parseInt(n3.value);
+document.getElementById("sagot").innerHTML = cvrt.toString(2);
+document.getElementById("oct").innerHTML = cvrt.toString(8);
+document.getElementById("hex").innerHTML = cvrt.toString(16);
+document.getElementById("dec").innerHTML = cvrt.toString();
+}
+</script>
+</head>
+<body>
+<input type="number" id="n1">
+<input type="number" id="n2">
+<br>
+<button onclick="add()">Add</button>
+<button onclick="minus()">Subtract</button>
+<button onclick="times()">Multiply</button>
+<button onclick="divide()">Divide</button>
+<br>
+<output id="ans"></output>
+<hr><br>
+<input type="number" id="n3">
+<br><button onclick="binary()">Convert</button>
+<div>
+Binary : <span id="sagot"></span><br>
+Octal: <span id="oct"></span><br>
+Hexadecimal :<span id="hex"></span><br>
+Decimal : <span id="dec"></span>
+</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ICT Movers</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+</head>
+<body>
+<div id="content">
+	<!--Header Begins-->
+
+	<div id="header">
+		<div id="menu">
+	<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">Gallery</a></li>
+	<li><a href="#"></a>Friends</li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Contact</a></li>
+	</ul>
+	</div>	
+</div>
+<!-- Header Ends-->
+<div id="Main">
+	<div id="right">
+		<h3>ICT Movers</h3>
+		<p>Kame ang ICT Movers na Binubuo ng Magtotrpa<a href="#">More..</a></p>
+		<br/>
+		<h3>Information & Communication Teachnology</h3>
+		<ul>
+			<li><a href="#">Computer Programmer</a></li>
+			<li><a href="#"> Web Developer</a></li>
+			<li><a href="#">Mabile App Developer</a></li>
+			<li><a href="#">Info Tech</a></li>
+			<li><a href="#">Computer System Servicing</a></li>
+		</ul>
+		<h3>Memebers</h3>
+		<ul>
+		<li class="news">
+			<h4>Kennth Lester De Guzman</h4>
+			<p><a href="#">Web Developer & I.T in Mobile App</a></p></li>
+		<li class="news">
+		<h4>Marvin Baronda</h4>
+		<p><a href="#">Computer Programmer</a></p></li>	
+		<li class="news">
+			<h4>Ismael Rosales</h4>
+			<p><a href="#">Computer System Technology</a></p>
+		</li>
+	</ul>
+</div>
+<div id="left">
+	<h2>Welcome To Our Website</h2><br/>
+	<h4>ICT Movers</h4><br/>
+	<p>This is Our Webpage</p>
+	<p>Information & Communication Technology<br/>
+		(ICT) is another/extensional term for information technology (IT) which stresses the role of unified communications[1] and the integration of telecommunications (telephone lines and wireless signals), computers as well as necessary enterprise software, middleware, storage, and audio-visual systems, which enable users to access, store, transmit, and manipulate information.</p><br/>
+		<br/>
+		<h4>MORE ARTICLES</h4><br/>
+		<p>The term ICT is also used to refer to the convergence of audio-visual and telephone networks with computer networks through a single cabling or link system.</p>
+		<p>The broadness of ICT covers any product that will store, retrieve, manipulate, transmit or receive information electronically in a digital form, e.g. personal computers, digital television, email, robots. For clarity, Zuppo provided an ICT hierarchy where all levels of the hierarchy "contain some degree of commonality in that they are related to technologies that facilitate the transfer of information and various types of electronically mediated communications".</p>
+		<h4>&nbsp;</h4>
+	</div>
+</div>
+<div id="footer">
+	<p>Copyright &copy; 2018. design by<a href="#" title="Templates">Knnth Lstr Dgzmn</a></p>
+</div>
+</body>
+</html>
